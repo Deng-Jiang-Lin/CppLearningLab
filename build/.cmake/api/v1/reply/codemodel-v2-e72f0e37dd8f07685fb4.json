@@ -1,0 +1,211 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "CppLearningLab",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "base_object::@145eef247bfb46b6828c",
+					"jsonFile" : "target-base_object-Debug-ef56e02f84ee727f3ade.json",
+					"name" : "base_object",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "convert_type::@145eef247bfb46b6828c",
+					"jsonFile" : "target-convert_type-Debug-3324c0a0580126ff13d6.json",
+					"name" : "convert_type",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "function_object::@145eef247bfb46b6828c",
+					"jsonFile" : "target-function_object-Debug-dcd8fac83b6a9ebc89db.json",
+					"name" : "function_object",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "function_template::@145eef247bfb46b6828c",
+					"jsonFile" : "target-function_template-Debug-82900241073994763491.json",
+					"name" : "function_template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "iterator::@145eef247bfb46b6828c",
+					"jsonFile" : "target-iterator-Debug-f75abd1e4bef2878245d.json",
+					"name" : "iterator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "m_any::@145eef247bfb46b6828c",
+					"jsonFile" : "target-m_any-Debug-bc7854507593bdad3f32.json",
+					"name" : "m_any",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "m_condition::@145eef247bfb46b6828c",
+					"jsonFile" : "target-m_condition-Debug-f3d3fe388526fac3fd8b.json",
+					"name" : "m_condition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "m_lambada::@145eef247bfb46b6828c",
+					"jsonFile" : "target-m_lambada-Debug-5b7c0be580e8d7848516.json",
+					"name" : "m_lambada",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "m_mutex_unique_lock::@145eef247bfb46b6828c",
+					"jsonFile" : "target-m_mutex_unique_lock-Debug-725fee4e1042698ae8bb.json",
+					"name" : "m_mutex_unique_lock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "m_smart_pointers::@145eef247bfb46b6828c",
+					"jsonFile" : "target-m_smart_pointers-Debug-3418d6a0eeb65f367462.json",
+					"name" : "m_smart_pointers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "m_string::@145eef247bfb46b6828c",
+					"jsonFile" : "target-m_string-Debug-a5c296872c5c4dc30e62.json",
+					"name" : "m_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "m_thread::@145eef247bfb46b6828c",
+					"jsonFile" : "target-m_thread-Debug-92b2ca9a20d8b243039d.json",
+					"name" : "m_thread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "object_pool::@145eef247bfb46b6828c",
+					"jsonFile" : "target-object_pool-Debug-5371f596a571efb36de6.json",
+					"name" : "object_pool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sort_vector::@145eef247bfb46b6828c",
+					"jsonFile" : "target-sort_vector-Debug-edaf7a4e246bbc417c88.json",
+					"name" : "sort_vector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "templates_vector::@145eef247bfb46b6828c",
+					"jsonFile" : "target-templates_vector-Debug-bf67e98ad4ab04fef613.json",
+					"name" : "templates_vector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vector::@145eef247bfb46b6828c",
+					"jsonFile" : "target-vector-Debug-94bccdc25ad410f4427c.json",
+					"name" : "vector",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/djl/cpps/CppLearningLab/build",
+		"source" : "/home/djl/cpps/CppLearningLab"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
