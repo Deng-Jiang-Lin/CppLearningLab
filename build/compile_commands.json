@@ -1,98 +1,164 @@
 [
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/base_object.dir/OOD/base_object.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/base_object.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/base_object.dir/OOD/base_object.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/base_object.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/OOD/base_object.cpp",
   "output": "src/CMakeFiles/base_object.dir/OOD/base_object.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/convert_type.dir/OOD/convert_type.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/convert_type.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/convert_type.dir/OOD/convert_type.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/convert_type.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/OOD/convert_type.cpp",
   "output": "src/CMakeFiles/convert_type.dir/OOD/convert_type.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/function_object.dir/OOD/function_object.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/function_object.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/function_object.dir/OOD/function_object.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/function_object.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/OOD/function_object.cpp",
   "output": "src/CMakeFiles/function_object.dir/OOD/function_object.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/function_template.dir/OOD/function_template.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/function_template.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/function_template.dir/OOD/function_template.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/function_template.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/OOD/function_template.cpp",
   "output": "src/CMakeFiles/function_template.dir/OOD/function_template.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/m_any.dir/OOD/m_any.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/m_any.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/m_any.dir/OOD/m_any.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/m_any.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/OOD/m_any.cpp",
   "output": "src/CMakeFiles/m_any.dir/OOD/m_any.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/m_string.dir/OOD/m_string.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/m_string.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/m_sizeof.dir/OOD/m_sizeof.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/m_sizeof.cpp",
+  "file": "/home/djl/cpps/CppLearningLab/src/OOD/m_sizeof.cpp",
+  "output": "src/CMakeFiles/m_sizeof.dir/OOD/m_sizeof.cpp.o"
+},
+{
+  "directory": "/home/djl/cpps/CppLearningLab/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/m_string.dir/OOD/m_string.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/m_string.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/OOD/m_string.cpp",
   "output": "src/CMakeFiles/m_string.dir/OOD/m_string.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/object_pool.dir/OOD/object_pool.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/object_pool.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/object_init.dir/OOD/object_init.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/object_init.cpp",
+  "file": "/home/djl/cpps/CppLearningLab/src/OOD/object_init.cpp",
+  "output": "src/CMakeFiles/object_init.dir/OOD/object_init.cpp.o"
+},
+{
+  "directory": "/home/djl/cpps/CppLearningLab/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/object_pool.dir/OOD/object_pool.cpp.o -c /home/djl/cpps/CppLearningLab/src/OOD/object_pool.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/OOD/object_pool.cpp",
   "output": "src/CMakeFiles/object_pool.dir/OOD/object_pool.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/iterator.dir/STL/iterator.cpp.o -c /home/djl/cpps/CppLearningLab/src/STL/iterator.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/iterator.dir/STL/iterator.cpp.o -c /home/djl/cpps/CppLearningLab/src/STL/iterator.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/STL/iterator.cpp",
   "output": "src/CMakeFiles/iterator.dir/STL/iterator.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/sort_vector.dir/STL/sort_vector.cpp.o -c /home/djl/cpps/CppLearningLab/src/STL/sort_vector.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/sort_vector.dir/STL/sort_vector.cpp.o -c /home/djl/cpps/CppLearningLab/src/STL/sort_vector.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/STL/sort_vector.cpp",
   "output": "src/CMakeFiles/sort_vector.dir/STL/sort_vector.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/templates_vector.dir/STL/templates_vector.cpp.o -c /home/djl/cpps/CppLearningLab/src/STL/templates_vector.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/templates_vector.dir/STL/templates_vector.cpp.o -c /home/djl/cpps/CppLearningLab/src/STL/templates_vector.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/STL/templates_vector.cpp",
   "output": "src/CMakeFiles/templates_vector.dir/STL/templates_vector.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/vector.dir/STL/vector.cpp.o -c /home/djl/cpps/CppLearningLab/src/STL/vector.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/vector.dir/STL/vector.cpp.o -c /home/djl/cpps/CppLearningLab/src/STL/vector.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/STL/vector.cpp",
   "output": "src/CMakeFiles/vector.dir/STL/vector.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/m_condition.dir/multi_threads/m_condition.cpp.o -c /home/djl/cpps/CppLearningLab/src/multi_threads/m_condition.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/roman_to_Intege.dir/leetcode/roman_to_Intege.cpp.o -c /home/djl/cpps/CppLearningLab/src/leetcode/roman_to_Intege.cpp",
+  "file": "/home/djl/cpps/CppLearningLab/src/leetcode/roman_to_Intege.cpp",
+  "output": "src/CMakeFiles/roman_to_Intege.dir/leetcode/roman_to_Intege.cpp.o"
+},
+{
+  "directory": "/home/djl/cpps/CppLearningLab/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/m_condition.dir/multi_threads/m_condition.cpp.o -c /home/djl/cpps/CppLearningLab/src/multi_threads/m_condition.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/multi_threads/m_condition.cpp",
   "output": "src/CMakeFiles/m_condition.dir/multi_threads/m_condition.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/m_mutex_unique_lock.dir/multi_threads/m_mutex_unique_lock.cpp.o -c /home/djl/cpps/CppLearningLab/src/multi_threads/m_mutex_unique_lock.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/m_mutex_unique_lock.dir/multi_threads/m_mutex_unique_lock.cpp.o -c /home/djl/cpps/CppLearningLab/src/multi_threads/m_mutex_unique_lock.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/multi_threads/m_mutex_unique_lock.cpp",
   "output": "src/CMakeFiles/m_mutex_unique_lock.dir/multi_threads/m_mutex_unique_lock.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/m_thread.dir/multi_threads/m_thread.cpp.o -c /home/djl/cpps/CppLearningLab/src/multi_threads/m_thread.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/m_thread.dir/multi_threads/m_thread.cpp.o -c /home/djl/cpps/CppLearningLab/src/multi_threads/m_thread.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/multi_threads/m_thread.cpp",
   "output": "src/CMakeFiles/m_thread.dir/multi_threads/m_thread.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/m_smart_pointers.dir/pointers/m_smart_pointers.cpp.o -c /home/djl/cpps/CppLearningLab/src/pointers/m_smart_pointers.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/multiprocess.dir/multi_threads/multiprocess.cpp.o -c /home/djl/cpps/CppLearningLab/src/multi_threads/multiprocess.cpp",
+  "file": "/home/djl/cpps/CppLearningLab/src/multi_threads/multiprocess.cpp",
+  "output": "src/CMakeFiles/multiprocess.dir/multi_threads/multiprocess.cpp.o"
+},
+{
+  "directory": "/home/djl/cpps/CppLearningLab/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/blocking_io.dir/network/blocking_io.cpp.o -c /home/djl/cpps/CppLearningLab/src/network/blocking_io.cpp",
+  "file": "/home/djl/cpps/CppLearningLab/src/network/blocking_io.cpp",
+  "output": "src/CMakeFiles/blocking_io.dir/network/blocking_io.cpp.o"
+},
+{
+  "directory": "/home/djl/cpps/CppLearningLab/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/epoll.dir/network/epoll.cpp.o -c /home/djl/cpps/CppLearningLab/src/network/epoll.cpp",
+  "file": "/home/djl/cpps/CppLearningLab/src/network/epoll.cpp",
+  "output": "src/CMakeFiles/epoll.dir/network/epoll.cpp.o"
+},
+{
+  "directory": "/home/djl/cpps/CppLearningLab/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/noblocking_io.dir/network/noblocking_io.cpp.o -c /home/djl/cpps/CppLearningLab/src/network/noblocking_io.cpp",
+  "file": "/home/djl/cpps/CppLearningLab/src/network/noblocking_io.cpp",
+  "output": "src/CMakeFiles/noblocking_io.dir/network/noblocking_io.cpp.o"
+},
+{
+  "directory": "/home/djl/cpps/CppLearningLab/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/poll.dir/network/poll.cpp.o -c /home/djl/cpps/CppLearningLab/src/network/poll.cpp",
+  "file": "/home/djl/cpps/CppLearningLab/src/network/poll.cpp",
+  "output": "src/CMakeFiles/poll.dir/network/poll.cpp.o"
+},
+{
+  "directory": "/home/djl/cpps/CppLearningLab/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/select.dir/network/select.cpp.o -c /home/djl/cpps/CppLearningLab/src/network/select.cpp",
+  "file": "/home/djl/cpps/CppLearningLab/src/network/select.cpp",
+  "output": "src/CMakeFiles/select.dir/network/select.cpp.o"
+},
+{
+  "directory": "/home/djl/cpps/CppLearningLab/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/question1.dir/offers/question1.cpp.o -c /home/djl/cpps/CppLearningLab/src/offers/question1.cpp",
+  "file": "/home/djl/cpps/CppLearningLab/src/offers/question1.cpp",
+  "output": "src/CMakeFiles/question1.dir/offers/question1.cpp.o"
+},
+{
+  "directory": "/home/djl/cpps/CppLearningLab/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/m_smart_pointers.dir/pointers/m_smart_pointers.cpp.o -c /home/djl/cpps/CppLearningLab/src/pointers/m_smart_pointers.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/pointers/m_smart_pointers.cpp",
   "output": "src/CMakeFiles/m_smart_pointers.dir/pointers/m_smart_pointers.cpp.o"
 },
 {
   "directory": "/home/djl/cpps/CppLearningLab/build",
-  "command": "/usr/bin/clang++ -g -std=gnu++17 -o src/CMakeFiles/m_lambada.dir/templates/m_lambada.cpp.o -c /home/djl/cpps/CppLearningLab/src/templates/m_lambada.cpp",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/m_lambada.dir/templates/m_lambada.cpp.o -c /home/djl/cpps/CppLearningLab/src/templates/m_lambada.cpp",
   "file": "/home/djl/cpps/CppLearningLab/src/templates/m_lambada.cpp",
   "output": "src/CMakeFiles/m_lambada.dir/templates/m_lambada.cpp.o"
+},
+{
+  "directory": "/home/djl/cpps/CppLearningLab/build",
+  "command": "/usr/bin/clang++ -g -std=gnu++20 -o src/CMakeFiles/meckcheck.dir/valgrind/meckcheck.cpp.o -c /home/djl/cpps/CppLearningLab/src/valgrind/meckcheck.cpp",
+  "file": "/home/djl/cpps/CppLearningLab/src/valgrind/meckcheck.cpp",
+  "output": "src/CMakeFiles/meckcheck.dir/valgrind/meckcheck.cpp.o"
 }
 ]

@@ -3,13 +3,12 @@
 #include <iostream>
 #include <memory>
 #include <ostream>
-/*
-智能指针通过RAII(Resource Acquisition
-IsInitialization)自动管理内存——在其生命周期结束时自动释放资源。 背景： 1、传统
-new / delete 容易出现问题： 内存泄漏（没 delete）、 重复delete（野指针）、
-    异常提前退出导致资源未释放、
-    delete 后继续使用悬空指针
-
+/*指针基于 RAII（Resource Acquisition Is
+Initialization）思想，对动态资源进行自动管理，在对象生命周期结束时由析构函数自动释放资源。
+传统的 new / delete
+方式容易出现内存泄漏、重复释放、异常提前退出导致资源未释放，以及 delete
+后继续使用悬空指针等问题。
+智能指针通过封装原始指针，将资源的申请与对象生命周期绑定，有效避免了手动内存管理带来的常见错误，提高了程序的安全性和可靠性。
 */
 
 int main() {

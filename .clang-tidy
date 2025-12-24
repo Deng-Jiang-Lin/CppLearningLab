@@ -1,0 +1,41 @@
+Checks: >
+  -*,
+
+  # ===== 静态分析（必须）=====
+  clang-analyzer-*,
+
+  # ===== 常见 Bug =====
+  bugprone-*,
+  -bugprone-easily-swappable-parameters,
+
+  # ===== 性能相关 =====
+  performance-*,
+
+  # ===== 现代 C++（温和）=====
+  modernize-use-nullptr,
+  modernize-use-override,
+  modernize-use-equals-default,
+  modernize-use-bool-literals,
+  modernize-pass-by-value,
+  modernize-use-const,
+
+  # ===== 可读性 / const =====
+  readability-non-const-parameter,
+  readability-qualified-auto,
+  readability-braces-around-statements,
+
+  # ===== 核心指南（挑选）=====
+  cppcoreguidelines-narrowing-conversions,
+  cppcoreguidelines-pro-type-reinterpret-cast,
+
+  # ===== 杂项 =====
+  misc-unconventional-assign-operator
+
+WarningsAsErrors: ''
+
+HeaderFilterRegex: '.*'
+
+CheckOptions:
+  # 大括号策略：if / for / while 都建议加
+  - key: readability-braces-around-statements.ShortStatementLines
+    value: '1'

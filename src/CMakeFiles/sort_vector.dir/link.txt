@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sort_vector.dir/STL/sort_vector.cpp.o -o ../bin/STL/sort_vector 

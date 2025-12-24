@@ -1,41 +1,55 @@
 #include <iostream>
+#include <string>
 
-class A {
+class Base {
 public:
-    virtual ~A() = default;
-    virtual void print() =0; // 纯虚函数
+  virtual ~Base() = default;
 };
 
-
-class B : public A {
+class Derived : public Base {
 public:
-    void print() override {
-        std::cout << "我是B" << std::endl;
-    };
+  void show() { std::cout << "Derived class" << std::endl; }
 };
 
-class C : public A {
-public:
-    void print() override {
-        std::cout << "我是C" << std::endl;
-    };
+void demonstrateTypeCasting() {
+  // 1. static_cast
+  int a = 10;
+  double b = static_cast<double>(a); // Basic type conversion
+  std::cout << "static_cast: " << b << std::endl;
 
-    void printt() {
-        std::cout << "我是C2" << std::endl;
-    }
-};
+  Base *base = new Derived();
+  Derived *derived = static_cast<Derived *>(base); // Safe downcasting
+  derived->show();
 
-void print(A &a) {
-    if (auto *c = dynamic_cast<C *>(&a)) {
-        c->printt();
-    }
-    a.print();
+  // 2. dynamic_cast
+  Base *unrelated = new Base();
+  Derived *invalid = dynamic_cast<Derived *>(unrelated); // Invalid conversion
+  if (!invalid) {
+    std::cout << "dynamic_cast: Invalid conversion" << std::endl;
+  }
+
+  // 3. const_cast
+  const int num = 42;
+  int *modifiable = const_cast<int *>(&num); // Remove const qualifier
+  *modifiable = 100;                         // Undefined behavior
+  std::cout << "const_cast: " << *modifiable << std::endl;
+
+  // 4. reinterpret_cast
+  int value = 65;
+  union {
+    int intValue;
+    char charValue[sizeof(int)];
+  } converter;
+
+  converter.intValue = value;
+  std::cout << "reinterpret_cast: First byte of value = "
+            << converter.charValue[0] << std::endl;
+
+  delete base;
+  delete unrelated;
 }
 
 int main() {
-    B b;
-    C c;
-    print(b);
-    print(c);
-    return 0;
+  demonstrateTypeCasting();
+  return 0;
 }
